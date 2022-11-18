@@ -1,0 +1,215 @@
+.header {
+  display: block;
+  margin-left:  auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+a {
+  color: #ce1616;
+  text-decoration: none;
+}
+
+h1 {
+  color:#ce1616;
+  font-size: 1.5em;
+  font-family: 'Raleway', Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+
+h2 {
+  color: #242424;
+  font-size: 1.5em;
+  float: left;
+  font-family: 'Raleway';
+  font-weight: 800;
+  margin: 0 0 0 20px;
+}
+
+h3 {
+  color: #585858;
+  letter-spacing: 1;
+  font-size: 1em;
+  font-family: 'Raleway', Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+p {
+  color:#000000;
+  font-family: 'Raleway', Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+
+button:hover {
+  color: red;
+}
+button:active {
+  color: maroon;
+}
+
+input {
+  margin: 10px;
+  border: 2px solid #68a4bb;
+}
+
+label {
+  text-transform: uppercase;
+  font-family: 'Raleway';
+}
+
+.admin {
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  width: 1240px; 
+  border: solid 3px #86d2c8;
+  border-radius: 15px;
+  background: #fff;
+  filter: drop-shadow(5px 5px 4px #546267);
+  margin-left: 270px;
+}
+.menu {
+  clear: both;
+  padding-left: 250px;
+}
+
+.mealcard {
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  width: 370px; 
+  border: solid 3px #86d2c8;
+  border-radius: 15px;
+  background: #fff;
+  filter: drop-shadow(5px 5px 4px #546267);
+}
+
+.mealcard p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.cardimg {
+  align-content: center;
+}
+
+.cardimg img {
+  width: 320px;
+  margin: 20px;
+}
+
+.review-stars {
+  padding: 10px 0 10px 20px;
+  clear: both;
+  margin: 0 auto;
+}
+
+.review-stars img {
+  width: 20px;
+  float: left;
+}
+.testimonials {
+  width: 330px;
+  font-weight: 800;
+}
+.wrapper {
+  padding: 50px 0 130% 0;
+  margin: 0 auto;
+  text-align: center; 
+  background-color: #bbdae5;
+  width: 100%;
+  height: 100%;
+}
+
+
+.cart {
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  width: 1240px; 
+  border: solid 3px #86d2c8;
+  border-radius: 15px;
+  background: #fff;
+  filter: drop-shadow(5px 5px 4px #546267);
+  margin-left: 270px;
+}
+.navbar {
+  background-color: #fff;;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  z-index: 0;
+}
+.navlinks {
+  height: 100px;
+line-height: 100px;
+text-align: center;
+margin: 50px;
+margin-right: 262px;
+}
+.navright {
+  float: right;
+  padding-right: 50px;
+  margin-top: -211px;
+}
+
+.navbar a {
+  color:#2d2d2d;
+  padding: 0 2%;
+  font-family: 'Raleway', Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+
+.logo {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.logo img {
+  width: 150px;
+}
+
+.content {
+  width: 1100px;
+  margin: 0 auto;
+}
+.divider {
+  clear: both;
+  margin-top:60px;
+}
+.break {
+  clear: both;
+  margin-top:30px;
+}
+.btn {
+ background-color: #fff;
+ border: solid 2px;
+ border-color: #de810a;
+ padding: 5px 20px;
+ color: #2d2d2d;
+ font-weight: 600;
+ font-family: 'Raleway', Georgia, Times, 'Times New Roman', serif;
+ font-size: 1.3em;
+ margin-bottom: 20px;
+}
+
+.removeBtn {
+  background-color: #fff;
+  padding: 5px 20px;
+  color: rgb(207, 60, 30);
+  font-weight: 600;
+  font-family: 'Raleway', Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3em;
+}
+

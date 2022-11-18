@@ -7,9 +7,9 @@ task :server do
     puts "Migrations are pending. Make sure to run `rake db:migrate` first."
     return
   end
-
+  ActiveRecord::Base.logger = Logger.new(STDOUT)
   # rackup -p PORT will run on the port specified (9292 by default)
-  ENV["PORT"] ||= "9292"
+  ENV["PORT"] ||= "9293"
   rackup = "rackup -p #{ENV['PORT']}"
 
   # rerun allows auto-reloading of server when files are updated
